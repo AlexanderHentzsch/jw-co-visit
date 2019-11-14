@@ -1,0 +1,39 @@
+{
+  "descriptionMinistryMeetings": [
+    "Zusammenkunft für den Predigtdienst"
+  ],
+  "weekContent": [
+    [
+      {
+        "time": "18:30",
+        "type": "meeting",
+        "url": "",
+        "content": [
+          "Lied ? und Gebet",
+          "[background:ff0000]Schätze aus Gottes Wort",
+          "Aufgabe 1",
+          "[background:ff0000]Uns im Dienst Verbessern",
+          "Aufgabe 2",
+          "[background:ff0000]Unser Leben als Christ",
+          "Aufgabe 3",
+          "[color:ff0000]Dienstvortrag: Thema"
+        ]
+      }
+    ],
+    [
+      {
+        "time": "9:00",
+        "type": "",
+        "place": ""
+      },
+      {
+        "time": "14:00",
+        "typeIndex": 1
+      },
+      {
+        "time": "18:00",
+        "content": "Zusammenkunft mit den Pionieren und Hilfspionieren der Versammlung"
+      }
+    ]
+  ]
+}
