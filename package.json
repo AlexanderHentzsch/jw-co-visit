@@ -1,21 +1,21 @@
 {
-  "name": "jw-ministry-week",
+  "name": "jw-co-visit",
   "version": "1.0.0",
   "description": "Put a description in it. It’s a string. This helps people discover your package, as it’s listed in npm search.",
   "keywords": [],
-  "homepage": "https://github.com/BillAlex-BASoftware/jw-ministry-week/blob/master/README.md",
+  "homepage": "https://github.com/AlexanderHentzsch/jw-co-visit/blob/master/README.md",
   "bugs": {
-    "url": "https://github.com/BillAlex-BASoftware/jw-ministry-week/issues",
+    "url": "https://github.com/AlexanderHentzsch/jw-co-visit/issues",
     "email": "project@hostname.com"
   },
   "license": "MIT",
   "private": true,
   "author": {
-    "name": "",
+    "name": "Alexander Hentzsch",
     "email": "",
     "url": ""
   },
-  "jw-ministry-weeksitory": "github:BillAlex-BASoftware/jw-ministry-week",
+  "jw-ministry-weeksitory": "github:AlexanderHentzsch/jw-co-visit/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
