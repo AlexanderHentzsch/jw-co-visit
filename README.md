@@ -1,5 +1,3 @@
-# Vue template
+# JW circuit overseer’s visit
 
-### Nötige Anpassungen
-- [package.json] Ersetzem: owner => GitHub Name, repo => Repository Name
-- [vue.config.js] Ist für GitHub Pages konfiguriert. Ersetzen: repo => Repository Name
+This repository is current only a static template for the programm of the circuit overseer’s visit.
