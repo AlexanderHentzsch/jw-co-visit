@@ -1,4 +1,4 @@
 module.exports = {
-    publicPath: '/jw-ministry-week/',
+    publicPath: '/jw-co-visit/',
     outputDir: 'docs'
 };
