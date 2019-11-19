@@ -1,0 +1,20 @@
+/* Color Theme Swatches in Hex */
+.Spring-1-hex { color: #1A222F; } /* black */
+.Spring-2-hex { color: #008E74; } /* dark green */
+.Spring-3-hex { color: #B2E097; } /* light green */
+.Spring-4-hex { color: #FFE9AD; } /* yellow */
+.Spring-5-hex { color: #D24335; } /* red */
+
+/* Color Theme Swatches in RGBA */
+.Spring-1-rgba { color: rgba(26, 33, 47, 1); }
+.Spring-2-rgba { color: rgba(0, 142, 116, 1); }
+.Spring-3-rgba { color: rgba(177, 223, 151, 1); }
+.Spring-4-rgba { color: rgba(255, 232, 172, 1); }
+.Spring-5-rgba { color: rgba(209, 66, 52, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Spring-1-hsla { color: hsla(217, 28, 14, 1); }
+.Spring-2-hsla { color: hsla(169, 100, 27, 1); }
+.Spring-3-hsla { color: hsla(97, 54, 73, 1); }
+.Spring-4-hsla { color: hsla(43, 100, 83, 1); }
+.Spring-5-hsla { color: hsla(5, 63, 51, 1); }
