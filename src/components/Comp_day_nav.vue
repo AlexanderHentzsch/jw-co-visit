@@ -1,15 +1,10 @@
 <template>
     <div>
         <div id="container-day-nav">
-            <router-link to="/1">Di</router-link>
-            <router-link to="/2">Mi</router-link>
-            <router-link to="/3">Do</router-link>
-            <router-link to="/4">Fr</router-link>
-            <router-link to="/5">Sa</router-link>
-            <router-link to="/6">So</router-link>
+            <template v-for="i in [1,2,3,4,5,6]">
+                <router-link :to="'/' + i">{{getDayName(i)}}</router-link>
+            </template>
         </div>
-
-        <h3>{{selectedDay}}</h3>
     </div>
 </template>
 
@@ -19,14 +14,13 @@
         data() {
             return {
                 days: [
-                    "Dienstag, 19.11.2019",
-                    "Mittwoch, 20.11.2019",
-                    "Donnerstag, 21.11.2019",
-                    "Freitag, 22.11.2019",
-                    "Samstag, 23.11.2019",
-                    "Sonntag, 24.11.2019",
-                ],
-                daysShort: ["Di", "Mi"]
+                    "Di, 19.11.",
+                    "Mi, 20.11.",
+                    "Do, 21.11.",
+                    "Fr, 22.11.",
+                    "Sa, 23.11.",
+                    "So, 24.11.",
+                ]
             }
         },
         computed: {
@@ -34,15 +28,16 @@
                 const selectedDayId = parseInt(this.$route.params.dayId);
                 return this.days[selectedDayId - 1];
             }
+        },
+        methods: {
+            getDayName(dayId) {
+                const dayByRoute = parseInt(this.$route.params.dayId);
+                const i = parseInt(dayId) - 1;
+                return (dayByRoute === dayId) ? this.days[i] : this.days[i].substr(0, 2);
+            }
         }
     }
 </script>
-
-.Spring-1-hex { color: #1A222F; } /* black */
-.Spring-2-hex { color: #008E74; } /* dark green */
-.Spring-3-hex { color: #B2E097; } /* light green */
-.Spring-4-hex { color: #FFE9AD; } /* yellow */
-.Spring-5-hex { color: #D24335; } /* red */
 
 <style scoped>
     .router-link-active {
@@ -63,7 +58,7 @@
         text-align: center;
     }
 
-    h3{
+    h3 {
         font-size: 14px;
         padding: 0 16px;
     }

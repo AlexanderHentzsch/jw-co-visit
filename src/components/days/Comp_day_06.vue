@@ -1,28 +1,31 @@
 <template>
     <div class="container-day">
-        <h1>10:00</h1>
-        <h2>Aufgabe 1</h2>
-        <h2>Aufgabe 1</h2>
-        <h2>Aufgabe 1</h2>
-        <h2 style="color: #D24335; font-weight: bolder">Dienstvortrag: Thema</h2>
+        <ul>
+            <li>10.00 Uhr</li>
+            <li>Lied 3 und Gebet</li>
+            <li>
+                <ul>
+                    <li>ÖFFENTLICHER VORTRAG: Interessiert sich Gott für mich persönlich?</li>
+                </ul>
+            </li>
+            <li>Lied 17</li>
+            <li>
+                <ul>
+                    <li>WACHTTURMSTUDIUM: „Kommt zu mir … und ich werde euch neue Kraft geben“</li>
+                    <li>DIENSTVORTRAG: Wertschätzung für die erhabene Anbetung</li>
+                </ul>
+            </li>
+            <li>Lied 2 und Gebet</li>
+        </ul>
     </div>
 </template>
 
 <script>
     export default {
-        name: "Comp_day_01"
+        name: "Comp_day_05"
     }
 </script>
 
 <style scoped>
-    h1, h2, h3 {
-        margin: 4px 0;
-    }
-    h1{
-        font-size: 18px;
-    }
-    h2 {
-        font-size: 18px;
-    }
 
 </style>

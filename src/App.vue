@@ -33,6 +33,16 @@
             Comp_day_nav,
             Comp_header
         },
+        mounted(){
+            const dayId = this.$route.params.dayId;
+            const cDay = new Date().getDay();
+
+            if(dayId !== undefined)
+                return;
+
+            const nRoute = (cDay === 0) ? '/6' : '/' + (cDay - 1);
+            this.$router.push(nRoute);
+        },
         methods: {
             isSelectedDay(routeLinkDayId) {
                 const selectedDayId = parseInt(this.$route.params.dayId);
@@ -45,8 +55,26 @@
 </script>
 
 <style>
-    .container-day {
-        padding: 16px
+    h4 {
+        margin: 4px 0;
+        font-size: 16px;
     }
 
+    ul {
+        margin: 0;
+        padding: 0 32px;
+        list-style-type: none;
+    }
+
+    .container-ul{
+        padding: 0;
+    }
+
+    .container-day{
+        padding-top: 32px;
+    }
+
+    li{
+        padding-bottom: 4px;
+    }
 </style>
